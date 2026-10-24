@@ -20,6 +20,7 @@ on:
   # Every run builds the SDK and the showcase app ZIP as run artifacts; only a v* tag
   # reaches the release job.
   push:
+    branches: ['feature/ui-kit-sdk-source-build-*']
     tags: ['v*']
 
 permissions:
